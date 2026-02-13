@@ -25,6 +25,6 @@ love → hove → have → hate
 
 ## Future Improvements
 
-- Add bidirectional BFS for performance improvement
 - Expose as web interface
 - Change dictionary to better align with weaver dictionary
+- Weaver X variant
