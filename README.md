@@ -6,7 +6,7 @@ Inspired by the https://wordwormdormdork.com/weaver/
 
 ## Problem
 
-Given a start word and an end word of equal length, transform the start word into the end word by changing one letter at a time. Each intermediate word must exist in the dictionary.
+Given a start word and an end word of equal length, transform the start word into the end word by changing one letter at a time. Each intermediate word must exist in the dictionary. Goal is to find a path with the least number of steps
 
 ## Approach
 
