@@ -52,7 +52,7 @@ def construct_path_bidir(start_paths: dict[str, dict[str, int | list[str]]],end_
     end = construct_path(end_paths,intersect, False)
     return start + end[1:]
 
-def main(start:str, end:str, bidir: bool): 
+def solverx(start:str, end:str, bidir: bool): 
     start_paths = {start: {"length":0, "parents": None, "visited" : False}}
     if bidir:
         end_paths = {end: {"length":0, "parents": None, "visited" : False}}
@@ -101,4 +101,4 @@ if __name__ == "__main__":
     mode = "bidirectional BFS" if bidir else "BFS"
 
     print(f"start={start}, end={end}: Using {mode}")
-    print(main(start, end, bidir))
+    print(solverx(start, end, bidir))
